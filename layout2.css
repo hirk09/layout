@@ -162,28 +162,6 @@ hr {
     height: 280px;
   }
   @media only screen and (max-width: 1200px) {
-    .box {
-      float: left;
-      border: 1px darkgray solid;
-      width: 29.5%;
-    }
-    .box:nth-child(4) {
-      margin-left: 0%;
-      margin-top: 5%;
-    }
-    b {
-      left: 37%;
-    }
-    .but_on {
-      margin-left: 20%;
-    }
-  }
-  @media only screen and (max-width: 980px) {
-    .but_on {
-      margin-left: 16%;
-    }
-  }
-  @media only screen and (max-width: 890px) {
     .box:nth-child(3) {
       margin-left: 0%;
       margin-top: 5%;
