@@ -11,6 +11,7 @@ ul {
 }
 li {
   float: left;
+  font-family: sans-serif;
 }
 li a {
   display: block;
@@ -19,24 +20,24 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-.list{
+.list {
   margin-left: 9%;
 }
 .main {
   width: 100%;
 }
-strong{
+strong {
   font-weight: 500;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-h1{
-  font-size: 33px;
-    font-weight: inherit;
-}
-h4{
   font-size: 18px;
-    font-weight: inherit;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-weight: inherit;
+}
+h4 {
+  font-size: 18px;
+  font-weight: inherit;
 }
 .part1 {
   background-color: rgb(230, 230, 236);
@@ -49,19 +50,20 @@ h4{
 .inner {
   padding: 40px;
   padding-right: 80px;
+  padding-top: 1px;
 }
 button {
-  background-color: #005ff8;
+  background-color: #498fd8;
   color: white;
-  border-radius: 5px;
+  border-radius: 4px;
   border: none;
-  padding: 0.8%;
+  padding: 2%;
 }
 input {
   border-radius: 5px;
   background-color: white;
   border: 1px #cec6c6 solid;
-  padding: 2.5%;
+  padding: 4%;
 }
 .box {
   float: left;
@@ -70,8 +72,8 @@ input {
   height: 270px;
   border-radius: 5px;
 }
-.b_t{
-  padding: 2.5%;
+.b_t {
+  padding: 4%;
 }
 .part2 {
   width: 80%;
@@ -118,6 +120,7 @@ h4 {
   text-align: center;
   padding-left: 12%;
   padding-right: 18%;
+  font-family: sans-serif;
 }
 .but_on {
   margin-left: 18%;
@@ -137,98 +140,103 @@ hr {
   width: 100%;
   height: 270px;
 }
+.click{
+  padding: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 @media only screen and (max-width: 1381px) {
   .but_on {
     margin-left: 16%;
   }
   .big {
     height: 280px;
-}
-.box {
-  height: 280px;
-
-}
-@media only screen and (max-width: 1200px) {
-  .box {
-    float: left;
-    border: 1px darkgray solid;
-    width: 29.5%;
-  }
-  .box:nth-child(4) {
-    margin-left: 0%;
-    margin-top: 5%;
-  }
-  b {
-    left: 37%;
-  }
-  .but_on {
-    margin-left: 20%;
-  }
-}
-@media only screen and (max-width: 980px) {
-  .but_on {
-    margin-left: 16%;
-  }
-}
-@media only screen and (max-width: 890px) {
-  .box:nth-child(3) {
-    margin-left: 0%;
-    margin-top: 5%;
-  }
-  .box:nth-child(4) {
-    margin-left: 5%;
-    margin-top: 5%;
   }
   .box {
-    width: 46.5%;
+    height: 280px;
   }
-  .but_on {
-    margin-left: 24%;
+  @media only screen and (max-width: 1200px) {
+    .box {
+      float: left;
+      border: 1px darkgray solid;
+      width: 29.5%;
+    }
+    .box:nth-child(4) {
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+    b {
+      left: 37%;
+    }
+    .but_on {
+      margin-left: 20%;
+    }
+  }
+  @media only screen and (max-width: 980px) {
+    .but_on {
+      margin-left: 16%;
+    }
+  }
+  @media only screen and (max-width: 890px) {
+    .box:nth-child(3) {
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+    .box:nth-child(4) {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    .box {
+      width: 46.5%;
+    }
+    .but_on {
+      margin-left: 24%;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .but_on {
+      margin-left: 16%;
+    }
+  }
+  @media only screen and (max-width: 590px) {
+    .but_on {
+      margin-left: 14%;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .but_on {
+      margin-left: 12%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .but_on {
+      margin-left: 28%;
+    }
+    .box {
+      width: 100%;
+    }
+    .box:nth-child(2) {
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+    .box:nth-child(4) {
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+  }
+  @media only screen and (max-width: 390px) {
+    .but_on {
+      margin-left: 24%;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .but_on {
+      margin-left: 20%;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .but_on {
+      margin-left: 17%;
+    }
   }
 }
-@media only screen and (max-width: 700px) {
-  .but_on {
-    margin-left: 16%;
-  }
-}
-@media only screen and (max-width: 590px) {
-  .but_on {
-    margin-left: 14%;
-  }
-}
-@media only screen and (max-width: 530px) {
-  .but_on {
-    margin-left: 12%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .but_on {
-    margin-left: 28%;
-  }
-  .box {
-    width: 100%;
-  }
-  .box:nth-child(2) {
-    margin-left: 0%;
-    margin-top: 5%;
-  }
-  .box:nth-child(4) {
-    margin-left: 0%;
-    margin-top: 5%;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .but_on {
-    margin-left: 24%;
-  }
-}
-@media only screen and (max-width: 330px) {
-  .but_on {
-    margin-left: 20%;
-  }
-}
-@media only screen and (max-width: 280px) {
-  .but_on {
-    margin-left: 17%;
-  }
-}}
